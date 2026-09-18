@@ -1,2 +1,2 @@
-instance_create_layer(1056, 32, "Obstaculos", obj_otopassaro)
+instance_create_layer(random_range(960, 1184), random_range(32, 224), "Obstaculos", obj_otopassaro)
 alarm[1] = 340

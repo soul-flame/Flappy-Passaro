@@ -6,8 +6,6 @@ if global.perdeu == false{
    }
 }
 else {
-    vspeed = -4
-    hspeed = -4
     image_angle += 2
 }
 if y <= - 16 or y >= 368 or x <= 48 {

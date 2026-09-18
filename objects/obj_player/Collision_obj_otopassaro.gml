@@ -1,1 +1,1 @@
-global.perdeu = true
+perdeu()
