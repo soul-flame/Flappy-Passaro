@@ -1,3 +1,3 @@
 if global.perdeu == false {
-    global.pontos += 0.1
-}
+    global.pontos += 0.25
+}    
