@@ -1,3 +1,3 @@
 randomise()
-alarm[0] = 120
-alarm[1] = 240
+alarm[0] = random_range(80, 160)
+alarm[1] = random_range(200, 300)

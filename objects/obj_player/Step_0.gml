@@ -10,4 +10,5 @@ else {
 }
 if y <= - 16 or y >= 368 or x <= 48 {
     room_restart()
+    global.pontos = 0
 }
