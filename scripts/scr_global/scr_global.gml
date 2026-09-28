@@ -17,6 +17,8 @@ function perdeu() {
     layer_hspeed("bg_6", 0)
     vspeed = -4
     hspeed = -4
+    layer_sequence_create("Fades", 0, 0, sqn_fade_out)
+    obj_player.alarm[0] = 61
 }
 function vel_add() {
     var _spd_layer = layer_get_hspeed("bg_3") * 1.25

@@ -39,11 +39,16 @@
   "resources":[
     {"id":{"name":"fnt_comic_sans","path":"fonts/fnt_comic_sans/fnt_comic_sans.yy",},},
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},},
+    {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
     {"id":{"name":"obj_criador","path":"objects/obj_criador/obj_criador.yy",},},
     {"id":{"name":"obj_otopassaro","path":"objects/obj_otopassaro/obj_otopassaro.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"scr_global","path":"scripts/scr_global/scr_global.yy",},},
+    {"id":{"name":"sqn_fade_in","path":"sequences/sqn_fade_in/sqn_fade_in.yy",},},
+    {"id":{"name":"sqn_fade_out","path":"sequences/sqn_fade_out/sqn_fade_out.yy",},},
+    {"id":{"name":"sqn_title","path":"sequences/sqn_title/sqn_title.yy",},},
     {"id":{"name":"bg1","path":"sprites/bg1/bg1.yy",},},
     {"id":{"name":"bg2___lua","path":"sprites/bg2___lua/bg2___lua.yy",},},
     {"id":{"name":"bg3___arvores","path":"sprites/bg3___arvores/bg3___arvores.yy",},},
@@ -65,7 +70,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

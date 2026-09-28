@@ -8,7 +8,7 @@ if global.perdeu == false{
 else {
     image_angle += 2
 }
-if y <= - 16 or y >= 368 or x <= 48 {
-    room_restart()
+if y <= -16 and global.perdeu = false or y >= 368 and global.perdeu = false or x <= 48 and global.perdeu = false {
+    perdeu()
     global.pontos = 0
 }
