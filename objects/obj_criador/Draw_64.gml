@@ -9,7 +9,9 @@ if global.level < 9 {
 
 draw_set_font(fnt_comic_sans)
 
-draw_text(x, y, "Pontos: " + _pnt) 
+draw_text(x, y, "Pontos: " + _pnt)
+draw_sprite(spr_icone_do_pexe, 0, x, y+28)
+draw_text(x+16, y+16, global.peixes)
 draw_sprite_ext(spr_numeros, global.level, window_get_width()/2, 32, 2, 2, 0, c_white, 100)
 
 draw_set_font(-1)

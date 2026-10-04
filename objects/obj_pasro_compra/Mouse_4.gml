@@ -1,0 +1,1 @@
+global.skin = sprite_index

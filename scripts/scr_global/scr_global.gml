@@ -4,7 +4,9 @@ global.perdeu = false
 global.pontos = 0
 global.level = 1
 global.lista_pontos = [100, 250, 450, 600, 750, 900, 1100, 1200, 1500]
-
+global.skin = spr_arara
+global.px_fase = 0
+global.peixes = 0
 
 #endregion
 
